@@ -19,6 +19,6 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "test_from_home-name-changed"
+    Name = "test_from_home"
   }
 }
